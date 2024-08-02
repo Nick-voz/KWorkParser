@@ -1,6 +1,8 @@
 import logging
 
-from logger_conf import loger_config
+from utilites import config_loger
 
-loger_config()
+config_loger()
 logger = logging.getLogger(__name__)
+
+logger.info("start app")
